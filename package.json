@@ -1,0 +1,12 @@
+{
+  "name": "guild-signer",
+  "version": "1.0.0",
+  "scripts": {
+    "sign": "node index.js"
+  },
+  "dependencies": {
+    "@guildxyz/sdk": "^1.1.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  }
+}
