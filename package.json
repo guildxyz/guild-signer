@@ -5,8 +5,30 @@
     "sign": "node index.js"
   },
   "dependencies": {
+    "@crpdo/crypto": "^0.0.1",
     "@guildxyz/sdk": "^1.1.1",
+    "@types/node": "^20.8.0",
+    "crypto": "1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "crypto-es": "^2.0.4",
+    "crypto-js": "^4.1.1",
     "dotenv": "^16.0.3",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "meteor-promise": "^0.9.0",
+    "nanoid": "^5.0.1",
+    "randombytes": "^2.1.0",
+    "stream-browserify": "^3.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
   }
 }
